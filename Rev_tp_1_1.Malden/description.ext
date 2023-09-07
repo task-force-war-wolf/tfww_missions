@@ -1,0 +1,10 @@
+class cfgFunctions {
+	#include "scripts\Reeveli_fnc\Reevelis_fnc.hpp"	
+};
+
+class Extended_PreInit_EventHandlers
+{
+	class Rev_settings {init = "call compile preprocessFileLineNumbers 'scripts\Reeveli_fnc\Rev_teleport\Rev_tp_settings.sqf'";};
+};
+
+#include "scripts\dialogs\tp_dialog.hpp"

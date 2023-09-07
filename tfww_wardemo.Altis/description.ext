@@ -1,6 +1,7 @@
 #include "script_component.hpp"
 #include "CfgEventHandlers.hpp"
 #include "CfgFunctions.hpp"
+#include "scripts\dialogs\tp_dialog.hpp"
 
 class CfgDebriefingSections {
     class acex_killTracker {
